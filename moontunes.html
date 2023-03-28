@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="moontunes.css">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" rel="stylesheet">
         
         <script type="text/javascript"  src="moontunes.js"></script>
         <script src="https://kit.fontawesome.com/6d3b1d1f0e.js"></script>
@@ -20,6 +20,10 @@
         <audio hidden controls loop id="forest">
             <source src="forest.mp3" type="audio/mp3">
         </audio>
+
+        <audio hidden controls loop id="bubbles">
+            <source src="bubbles.mp3" type="audio/mp3">
+        </audio>
     </head>
 <body>
 <div class="Buttons - Row 1">
@@ -28,10 +32,12 @@
     <button class="button">Cotton Candy Clouds</button>
 </div>
 
-<div class="Buttons - Row 2">
-    <button class="circle-button"><i class="fa-solid fa-cloud"></i></button>
-    <button class="circle-button" onclick="playForest()"><i class="fa-solid fa-leaf"></i></button>
-    <button class="button">Supernova Swirl</button>
+<div class="Buttons - Row 2" style="display: flex;">
+        <button class="circle-button"  onclick="playBubbles()"">
+            <img src="bubbles.png" style="width:40px; height:40px; color:white;"/>
+        </button>
+        <button class="circle-button" onclick="playForest()"><i class="fa-solid fa-leaf"></i></button>
+        <button class="button">Supernova Swirl</button>
 </div>
 
 
