@@ -1,0 +1,122 @@
+html {
+    height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+body {
+    background: linear-gradient(90deg, rgba(102,0,255,1), rgba(0,174,255,1), rgb(230, 0, 255), rgb(0, 210, 213), rgb(0, 106, 255));
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    animation: gradient 60s ease infinite;
+    background-size: 400% 400%;
+}
+
+
+
+.button {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    border-radius: 75px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    height: 140px;
+    width: 830px;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+.button:active {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+  .circle-button {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    color:white;
+    font-family: "helvetica";
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  .circle-button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .img {
+    width: 25px;
+    height: 25px
+  }
+
+  .sqorcle-button {
+    background: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 25px;
+    height: 305px;
+    width: 305px;
+    color:white;
+    font-family: "helvetica";
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .sqorcle-button:active {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 25%;
+  }
+
+  .right-column {
+    flex: 75%;
+  }
+
+  .container {
+
+    display: flex;
+    
+    flex-direction: column;
+  }
+
+.logo {
+    margin-right: 10px;
+    text-align: right;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
