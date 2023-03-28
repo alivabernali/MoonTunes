@@ -3,9 +3,11 @@
     <head>
         <link rel="stylesheet" href="moontunes.css">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+        
         <script type="text/javascript"  src="moontunes.js"></script>
         <script src="https://kit.fontawesome.com/6d3b1d1f0e.js"></script>
-        
+       
+        <meta name=”viewport” content=”width=device-width, initial-scale=1.0″>
         
         <audio hidden controls loop id="waves">
             <source src="waves.mp3" type="audio/mp3">
@@ -13,6 +15,10 @@
 
         <audio hidden controls loop id="rain">
             <source src="rain.mp3" type="audio/mp3">
+        </audio>
+
+        <audio hidden controls loop id="forest">
+            <source src="forest.mp3" type="audio/mp3">
         </audio>
     </head>
 <body>
@@ -24,7 +30,7 @@
 
 <div class="Buttons - Row 2">
     <button class="circle-button"><i class="fa-solid fa-cloud"></i></button>
-    <button class="circle-button"><i class="fa-solid fa-leaf"></i></button>
+    <button class="circle-button" onclick="playForest()"><i class="fa-solid fa-leaf"></i></button>
     <button class="button">Supernova Swirl</button>
 </div>
 
