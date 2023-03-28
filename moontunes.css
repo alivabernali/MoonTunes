@@ -30,6 +30,7 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 35px;
+    font-weight: 600;
     border-radius: 75px;
     color:white;
     font-family: 'Inter', sans-serif;
@@ -119,3 +120,52 @@ body {
     font-size: 20px;
 }
 
+.landing-font {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 80px;
+    line-height: 600px;
+    font-weight: 600;
+    margin-right: 25px
+}
+
+.landing-logo {
+  text-align: right;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-size: 80px;
+  line-height: 600px;
+  font-weight: 600;
+}
+
+.enter-button {
+  background: rgba(255, 255, 255, 0);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.358);
+  border-radius: 75px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 80px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  height: 100px;
+  width: 320px;
+  margin-top: 300px;
+  margin-left: 450px;
+} 
+
+.left-column-landing {
+  flex: 42%;
+}
+
+.right-column-landing {
+  flex: 58%;
+}
+
+.a:visited, a:link {
+  color: white;
+  text-decoration:none!important;
+  
+}
