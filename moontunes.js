@@ -21,3 +21,15 @@ function playRain(){
         myAudio.pause()
     }   
 }
+
+function playForest(){
+    var myAudio = document.getElementById("forest");
+    myAudio.volume = 0.2;
+
+    if (myAudio.paused) {
+        myAudio.play();
+    }     
+    else {
+        myAudio.pause()
+    }   
+}
