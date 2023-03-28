@@ -15,8 +15,7 @@ html {
 }
 
 body {
-    background: linear-gradient(90deg, rgba(102,0,255,1), rgba(0,174,255,1), rgb(230, 0, 255), rgb(0, 210, 213), rgb(0, 106, 255));
-    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background: linear-gradient(90deg, rgba(102,0,255,1), rgba(0,174,255, 1), rgba(230, 0, 255, 1), rgba(0, 210, 213, 1), rgba(0, 106, 255, 1));
     animation: gradient 60s ease infinite;
     background-size: 400% 400%;
 }
@@ -79,7 +78,7 @@ body {
     display: inline-block;
     font-size: 50px;
     font-family: 'Inter', sans-serif;
-    border-radius: 25px;
+    border-radius: 50%;
     height: 305px;
     width: 305px;
     color:white;
