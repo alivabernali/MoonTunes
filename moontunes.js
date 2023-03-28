@@ -33,3 +33,15 @@ function playForest(){
         myAudio.pause()
     }   
 }
+
+function playBubbles(){
+    var myAudio = document.getElementById("bubbles");
+    myAudio.volume = 0.1;
+
+    if (myAudio.paused) {
+        myAudio.play();
+    }     
+    else {
+        myAudio.pause()
+    }   
+}
