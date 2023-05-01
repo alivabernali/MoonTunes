@@ -124,7 +124,7 @@ function cloudVolume() {
     var myAudio = document.getElementsByTagName("cottoncandy");
     console.log(document.getElementById("volume4").value)
     myAudio.volume = document.getElementById("volume5").value;
-    playBubbles2();
+    playCloud2();
 
     if (!myAudio.paused) {
         myAudio.volume = document.getElementById("volume5").value;
