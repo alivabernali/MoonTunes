@@ -209,3 +209,33 @@ function playDream2(){
     
     myAudio.play();     
 }
+
+function aquaVolume() {
+    var myAudio = document.getElementsByTagName("aqua");
+    console.log(document.getElementById("volume8").value)
+    myAudio.volume = document.getElementById("volume8").value;
+    playAqua2();
+
+    if (!myAudio.paused) {
+        myAudio.volume = document.getElementById("volume8").value;
+    }
+}
+
+function playAqua(){
+    var myAudio = document.getElementById("aqua"); 
+    myAudio.volume = document.getElementById("volume8").value;  
+    
+    if (myAudio.paused) {
+        myAudio.play();
+    }     
+    else {
+        myAudio.pause()
+    }    
+}
+
+function playAqua2(){
+    var myAudio = document.getElementById("aqua"); 
+    myAudio.volume = document.getElementById("volume8").value;  
+    
+    myAudio.play();     
+}
