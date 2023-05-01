@@ -149,3 +149,33 @@ function playCloud2(){
     
     myAudio.play();     
 }
+
+function supernovaVolume() {
+    var myAudio = document.getElementsByTagName("supernova");
+    console.log(document.getElementById("volume6").value)
+    myAudio.volume = document.getElementById("volume6").value;
+    playSupernova2();
+
+    if (!myAudio.paused) {
+        myAudio.volume = document.getElementById("volume6").value;
+    }
+}
+
+function playSupernova(){
+    var myAudio = document.getElementById("supernova"); 
+    myAudio.volume = document.getElementById("volume6").value;  
+    
+    if (myAudio.paused) {
+        myAudio.play();
+    }     
+    else {
+        myAudio.pause()
+    }    
+}
+
+function playSupernova2(){
+    var myAudio = document.getElementById("supernova"); 
+    myAudio.volume = document.getElementById("volume6").value;  
+    
+    myAudio.play();     
+}
