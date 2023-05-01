@@ -119,3 +119,33 @@ function playBubbles2(){
     
     myAudio.play();     
 }
+
+function cloudVolume() {
+    var myAudio = document.getElementsByTagName("cottoncandy");
+    console.log(document.getElementById("volume4").value)
+    myAudio.volume = document.getElementById("volume4").value;
+    playBubbles2();
+
+    if (!myAudio.paused) {
+        myAudio.volume = document.getElementById("volume4").value;
+    }
+}
+
+function playCloud(){
+    var myAudio = document.getElementById("cottoncandy"); 
+    myAudio.volume = document.getElementById("volume4").value;  
+    
+    if (myAudio.paused) {
+        myAudio.play();
+    }     
+    else {
+        myAudio.pause()
+    }    
+}
+
+function playCloud2(){
+    var myAudio = document.getElementById("cottoncandy"); 
+    myAudio.volume = document.getElementById("volume4").value;  
+    
+    myAudio.play();     
+}
