@@ -179,3 +179,33 @@ function playSupernova2(){
     
     myAudio.play();     
 }
+
+function dreamVolume() {
+    var myAudio = document.getElementsByTagName("dreamscape");
+    console.log(document.getElementById("volume7").value)
+    myAudio.volume = document.getElementById("volume7").value;
+    playDream2();
+
+    if (!myAudio.paused) {
+        myAudio.volume = document.getElementById("volume7").value;
+    }
+}
+
+function playDream(){
+    var myAudio = document.getElementById("dreamscape"); 
+    myAudio.volume = document.getElementById("volume7").value;  
+    
+    if (myAudio.paused) {
+        myAudio.play();
+    }     
+    else {
+        myAudio.pause()
+    }    
+}
+
+function playDream2(){
+    var myAudio = document.getElementById("dreamscape"); 
+    myAudio.volume = document.getElementById("volume7").value;  
+    
+    myAudio.play();     
+}
