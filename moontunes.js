@@ -122,7 +122,7 @@ function playBubbles2(){
 
 function cloudVolume() {
     var myAudio = document.getElementsByTagName("cottoncandy");
-    console.log(document.getElementById("volume4").value)
+    console.log(document.getElementById("volume5").value)
     myAudio.volume = document.getElementById("volume5").value;
     playCloud2();
 
